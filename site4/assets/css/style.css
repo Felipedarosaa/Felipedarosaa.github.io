@@ -1,0 +1,121 @@
+body{
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/*Divs*/
+.tudo{
+    width: 100%;
+    background-image: url(https://ideiasradicais.com.br/wp-content/uploads/2019/08/1-shutterstock_112003280-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.galeria{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 18px;
+}
+
+.cidades{
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 40px;
+    background-image: url(https://i.pinimg.com/564x/0d/cb/b9/0dcbb93dbc721f7a03abcdb277832639.jpg);
+    width: 25%;
+    height: 400px;
+}
+
+
+/*blocos*/
+header{
+    background-image: url(https://donaarquiteta.com.br/wp-content/uploads/2019/04/DIVERSOS-EUROPA.jpg);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 15rem;
+    background-size: 40%;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav{
+    padding-right: 30px;
+    width: 20%;
+    background-color:rgb(131, 136, 159);
+}
+
+article{
+    background-color:rgb(139, 118, 118);
+    padding: 30px;
+    width: 80%;
+}
+
+footer{
+    background-color: grey;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+}
+
+
+/* IDS */
+#idMenu{
+    margin-left: 90px;
+}
+
+#idBandeira{
+    max-width: 50px;
+    padding-left: 10px;
+}
+
+#idBandeira2{
+    max-width: 80px;
+}
+
+#idFoto{
+    width: 350px;
+   float: center;
+   height: 250px;
+}
+
+#h1Titulo{
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.27);
+    height: 15rem;
+}
+
+/*botão*/
+button{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18%;
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+/*media*/
+@media (max-width: 600px){
+    section{
+        flex-wrap: wrap;
+    }
+    nav{
+        width: 100%;
+    }
+    article{
+        width: 100%;
+    }
+}
