@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 218, 3);
+}
+
+.game-board {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(3, 218, 3);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 1.6s infinite linear;
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+.nuvens {
+    width: 550px;
+    position: absolute;
+    animation: nuvens-animation 20s infinite linear;
+}
+
+button {
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: solid 5px;
+    font-weight: bold;
+    background: linear-gradient(#ff179f, #1fb8ff);
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+}
+
+button:hover {
+    font-size: 30px;
+    transition: all 1s;
+    width: 300px;
+    height: 110px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes nuvens-animation {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
