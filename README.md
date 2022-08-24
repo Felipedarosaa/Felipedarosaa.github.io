@@ -5,11 +5,6 @@
 <img src="https://acegif.com/wp-content/gifs/gif-marvel-24.gif">
 </p>
 
-**Meus Sites:**
-<Felipedarosaa.github.io/site>
-<Felipedarosaa.github.io/site2>
-<Felipedarosaa.github.io/site4>
-
 
 
 
