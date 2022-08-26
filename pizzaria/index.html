@@ -1,0 +1,222 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Gigatônica</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--BS Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px;" class="logo" href="#">Pizzaria Gigatônica</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 19px;" href="pages/cardapio.html">CARDÁPIO</a></li>
+                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 19px;" href="pages/avaliacoes.html">AVALIAÇÃO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/pizza1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/pizza2.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/pizza3.webp" class="d-block w-100">
+            </div>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <br><br>
+
+
+    <!--cardápio-->
+    <!--primeira fileira-->
+    <h4 class="pizzas">Pizzas Salgadas</h4>
+    <hr>
+    <br>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaCalabresa.jpg">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Calabresa</b></h4>
+                    <p class="card-text text-center">Calabresa, orégano, tomate e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaCoração.jpg">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Coração</b></h4>
+                    <p class="card-text text-center">Coração, requeijão, orégano e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaFrangoCatupiry.png">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Frango com Catupiry</b></h4>
+                    <p class="card-text text-center">Frango, orégano, catupiry e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaMarguerita.jpg">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Marguerita</b></h4>
+                    <p class="card-text text-center">Tomate, azeitona e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--Segunda fileira-->
+    <h4 class="pizzas">Pizzas Doces</h4>
+    <hr>
+    <br>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaBananaComCanela.webp">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Banana com Canela</b></h4>
+                    <p class="card-text text-center">Frango, orégano, catupiry e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaMisto.jpg">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Chocolate Misto</b></h4>
+                    <p class="card-text text-center">Frango, orégano, catupiry e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaChocolatePreto.webp">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Chocolate Preto</b></h4>
+                    <p class="card-text text-center">Frango, orégano, catupiry e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card" style="width:350px">
+                <img class="card-img-top" style="width: 350px; height: 250px;" src="imagens/pizzaNutellaComMorango.jpg">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Nutella com Morango</b></h4>
+                    <p class="card-text text-center">Frango, orégano, catupiry e queijo</p>
+                    <p class="card-text">Tamanho G: 12 Fatias R$ 49,90 </p>
+                    <p class="card-text">Tamanho M: 8 Fatias R$ 39,90 </p>
+                    <p class="card-text">Tamanho P: 6 Fatias R$ 29,90 </p>
+                    <a href="pages/pedido.html" target="_blank" class="btn">Adicionar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title"><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="index.html">PIZZARIA GIGATÔNICA</a></h2>
+
+            <ul class="footer__list">
+                <li>
+                    <i class="bi bi-whatsapp"></i>
+                    <a style="color: black; font-weight: bold" href="#" class="footer__link">Whatsapp</a>
+                </li>
+
+                <li>
+                    <i class="bi bi-instagram"></i>
+                    <a style="color: black; font-weight: bold;" class="footer_link" href="#">Instagram</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                <p class="text-center p-2">&#169; <a style="color: black; font-weight: bold;" href="https://br.linkedin.com/in/felipe-da-rosa-92238821b" target="_blank">Felipe Da Rosa</a> | Todos os direitos Reservados.</p>
+            </span> 
+        </div>
+    </footer>
+
+ <!--JAVASCRIPT-->
+ <script src="js/script.js"></script>
+
+</body>
+</html>
