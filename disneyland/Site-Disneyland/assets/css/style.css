@@ -1,0 +1,188 @@
+/*Tags*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: url('../img/disney.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    padding-bottom: 300px;
+}
+
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 119, 220);
+    font-weight: bold;
+}
+
+section {
+    background-color:rgb(230, 241, 241);
+}
+
+
+hr {
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    margin: 100px;
+}
+
+
+
+
+
+
+
+/*Class e Ids*/
+
+.hrMenor {
+    width: 200px;
+}
+
+#h1Sobre, #h1Produtos, #h1Contato{
+    color: black;
+    text-align: left;
+    margin: 15px;
+}
+
+#h2Lojas {
+    margin-left: 40px;
+}
+
+#entradasH2 {
+    margin-left: 35px;
+}
+
+#fotoPost4 {
+    margin-top: 25px;
+}
+
+#entrada1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    -webkit-transition: all .2s ease-in;
+}
+
+#entrada1:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#entrada2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    -webkit-transition: all .2s ease-in;
+}
+
+#entrada2:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#loja1, #loja2, #loja3, #loja4 {
+    -webkit-transition: all .2s ease-in;
+}
+
+#loja1:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#loja2:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#loja3:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#loja4:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#fotoSobre1, #fotoSobre2 {
+    -webkit-transition: all .2s ease-in;
+}
+
+#fotoSobre1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#fotoSobre2 {
+    margin-left: 30px;
+}
+
+#fotoSobre1:hover {
+    -webkit-transform: scale(1.2);
+}
+
+#fotoSobre2:hover {
+    -webkit-transform: scale(1.2);
+}
+
+.imgProdutos {
+    width: 250px;
+    height: 330px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8 {
+    border-radius: 20px;
+    -webkit-transition: all .2s ease-in;
+    border: 1px solid;
+}
+
+#card1:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card2:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card3:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card4:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card5:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card6:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card7:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#card8:hover {
+    -webkit-transform: scale(1.1);
+    border-radius: 30px;
+}
+
+#instagram {
+    color: black;
+    text-decoration: none;
+}
+
+#instagram:hover {
+    color: rgb(3, 119, 220);
+    font-size: 35px;
+}
